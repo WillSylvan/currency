@@ -1,7 +1,11 @@
 let exchangeRates = {
     eur: 1,
     lvl: 1.47,
-    usd: 1.11
+    usd: 1.11,
+    gbp: 1.12,
+    jpy: 0.0086,
+    cad: 0.678,
+    0.025
 }
 
 
@@ -24,6 +28,19 @@ let lvlToUsd = lvl => {
 
     return usd
 }
+
+function convert (money, from, to ) {
+
+    //1. eur => lvl
+        let lvl = eur * exchangeRates.lvl
+    //2. eur => usd
+    
+
+         
+
+
+}
+
 
 
 let lvl = usdToLvl(10) 
